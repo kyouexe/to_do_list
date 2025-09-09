@@ -42,6 +42,4 @@ function deleteTask(index) {
   localStorage.setItem("tasks", JSON.stringify(tasks));
   loadTasks();
 }
-
-// Load tasks when page opens
 document.addEventListener("DOMContentLoaded", loadTasks);
